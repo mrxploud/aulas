@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    
+    <section>    
+     <form action="">
+        <div><label for="login">Login</label></div>
+        <div><input type="email" id="login" placeholder="Seu email ou Telefone" required="Preencha este campo"></div>
+    
+        <div><label for="senha">Senha</label></div>
+        <div><input type="password" id="senha" placeholder="Digite sua senha" required="Preencha este campo"></div>
+    
+        <div><label for="confirmarsenha">Confirmar senha</label></div>
+        <div><input type="password" id="confirmarsenha" placeholder="Confirmar" required="Preencha este campo"></div>
+        <div><button type="submit">Cadastrar</button></div>
+
+     </form>    
+
+    </section>
+    <section>
+    <form action="">
+
+        <p>qual é o metodo de contato de preferencia</p>
+        <label for="email">Email</label>
+        <input type="radio" id="email" name="metododecontato" value="email"  ></input>
+        <label for="telefone">Telefone</label>
+        <input type="radio"  id="telefone" name="metododecontato" value="telefone"  ></input>
+        <label for="whatsapp">WhatsApp</label>
+        <input type="radio" id="whatsapp" name="metododecontato" value="whatsapp" ></input>
+        <button type="submit">Enviar</button>
+    </form> 
+
+     </section>
+     <form action="" required>     <section>
+            <label for="Plano">Planos</label>
+        <select name="Plano" id="Plano" required="true">
+            <option value="" id="escolher">Escolher Plano</option>
+            <option value="free" id="free">Free</option>
+            <option value="pro" id="pro">Pro</option>
+            <option value="premium" id="premium">Premium</option>
+        </select><button type="submit">Cadastrar</button></form>
+     </section>
+    </section>
+    <section>
+        <form action="">
+            <div><label for="mensagem">Mensagem</label></div>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite aqui" maxlength="500"></textarea>
+            <button type="submit">Enviar</button></form>
+        </form>
+        </section>
+        
+       
+
+</body>
+</html>
+
+
