@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Degrade.css"/>
+
+</head>
+<body>
+    <h1>Titulo aleatorio</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+    Omnis a maxime, doloremque voluptatum nulla nesciunt quibusdam 
+    saepe reprehenderit provident aliquid architecto est incidunt 
+    officia fugit eligendi officiis. Eos, tempore dolorem!</p>
+
+    
+    <Form>
+        <div class="form-input">
+        <div id="label"><label for="email" class="degrade">Email</label></div>
+
+            <input required
+            onfocus="nomeencolhendo()"
+            onfocusout="nomegrande()"
+    
+            type="text" 
+            id="email"       
+            >
+        </div>
+        <button class="botao">Enviar</button>
+    </Form>
+
+
+<script>
+    function nomeencolhendo(){
+        var element = document.getElementById("label");
+        element.classList.add("labelmenor");    
+    }
+    function nomegrande(){
+        var element = document.getElementById("label");
+        element.classList.remove("labelmenor");    
+    }
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    
+    <img src="/teste/testimg.jpg" id="minha-imagem">
+    <input type="range" min="0" max="360" step="1" id="range-cor">
+<!-- Alterando a corda de imagem com RANGE-->
+    <script>
+        // Obtém a imagem
+        const imagem = document.querySelector('#minha-imagem')
+        
+        // Obtém o controle de range
+        const range = document.querySelector('#range-cor')
+        
+        // Adiciona um listener para o evento input no controle de range
+        range.addEventListener('input', () => {
+          // Altera a cor da imagem de acordo com o valor selecionado
+          imagem.style.filter = `hue-rotate(${range.value}deg)`
+        })
+      </script>
+
+
+
+
+
+
+</body>
+</html>
