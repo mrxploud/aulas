@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Oleo+Script+Swash+Caps:wght@700&family=Roboto+Slab&family=VT323&display=swap');
+
+body {font-family: 'Roboto Slab', serif;}
+
+header {
+    text-align: center;
+    text-shadow: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.box1{
+    background-color: blue;
+    display: flex;
+    color: white;
+    font-size: 15px;
+
+
+}
+.box2{
+    width: 2000px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.linha{
+    box-decoration-break: clone;
+    border-bottom: 1px solid black;
+}
