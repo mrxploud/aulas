@@ -40,3 +40,32 @@ body{
     height: 20px;
 
 }
+
+.button {
+    background-color: #4CAF50; /* Cor de fundo */
+    border: none; /* Sem borda */
+    color: white; /* Cor da fonte */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Sem decoração do texto */
+    display: inline-block; /* Exibe como um bloco inline */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margem */
+    cursor: pointer; /* Cursor de mão */
+  }
+
+  .button2 {
+    background-color: #4CAF50; /* Cor de fundo */
+    border: none; /* Sem borda */
+    color: white; /* Cor da fonte */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Sem decoração do texto */
+    display: inline-block; /* Exibe como um bloco inline */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margem */
+    cursor: pointer; /* Cursor de mão */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); /* Sombreamento */
+    background: linear-gradient(to bottom, #4CAF50, #3e8e41); /* Gradiente de cor */
+  }
