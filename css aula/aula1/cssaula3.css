@@ -27,3 +27,7 @@ ul li a{
   ul li a:hover {
     background-color: green;
   }
+
+  ul li a:focus {
+    background-color: rgb(223, 255, 40);
+  }
